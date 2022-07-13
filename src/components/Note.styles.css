@@ -1,0 +1,28 @@
+.note-container {
+    width: 12.5rem;
+    height: 15rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    margin: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.note-title {
+    text-transform: uppercase;
+}
+
+.note-content {
+    color: darkolivegreen;
+}
+
+.delete-btn {
+    margin: 8px;
+    position: relative;
+    top: 1%;
+    left: 82%;
+    cursor: pointer;
+
+}

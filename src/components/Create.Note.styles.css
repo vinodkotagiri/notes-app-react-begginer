@@ -1,0 +1,48 @@
+.create-note-container {
+    width: 80%;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 2rem;
+}
+
+input {
+    width: 50%;
+    text-align: center;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+textarea {
+    width: 50%;
+    margin: 4px;
+    resize: none;
+    border: none;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 1rem;
+}
+
+button {
+    padding: 1rem;
+    width: 8rem;
+    margin: 16px;
+    border-radius: 1rem;
+    font-weight: bold;
+    background-color: aquamarine;
+
+}
+
+.back-btn {
+    display: inline-block;
+    position: relative;
+    top: 10%;
+    left: -45%;
+    cursor: pointer;
+    color: black;
+}

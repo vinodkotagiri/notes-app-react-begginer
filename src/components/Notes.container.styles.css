@@ -1,0 +1,17 @@
+.notes-container {
+    margin: 0 auto;
+    width: 80%;
+    height: 60vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+}
+
+.sad-icon {
+    color: orange;
+}
